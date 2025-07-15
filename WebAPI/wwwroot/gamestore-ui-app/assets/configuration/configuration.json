@@ -1,0 +1,45 @@
+{
+  "baseApiUrl": "https://localhost:7152",
+
+  "gameApiUrl": "/api/games/{key}",
+  "gameByIdApiUrl": "/api/games/{id}",
+  "gamesApiUrl": "/api/games",
+  "gamesByGenreApiUrl": "/api/games/genres/{id}",
+  "gamesByPublisherApiUrl": "/api/games/publishers/{id}",
+  "gamesByPlatformApiUrl": "/api/games/platforms/{id}",
+  "getGameFile": "/api/games/{key}/download",
+  "updateGameApiUrl": "/api/games/update",
+  "addGameApiUrl": "/api/games/new",
+  "deleteGameApiUrl": "/api/games/remove/{key}",
+
+  "genreApiUrl": "/api/genres/{id}",
+  "genresApiUrl": "/api/genres",
+  "genresByGameApiUrl": "/api/genres/{key}",
+  "genresByParentApiUrl": "/api/genres/{id}",
+  "updateGenreApiUrl": "/api/genres/update",
+  "addGenreApiUrl": "/api/genres/new",
+  "deleteGenreApiUrl": "/api/genres/remove/{id}",
+
+  "platformApiUrl": "/api/platforms/{id}",
+  "platformsApiUrl": "/api/platforms",
+  "platformsByGameApiUrl": "/api/platforms/{key}",
+  "updatePlatformApiUrl": "/api/platforms/update",
+  "addPlatformApiUrl": "/api/platforms/new",
+  "deletePlatformApiUrl": "/api/platforms/remove/{id}",
+
+  "publisherApiUrl": "/api/publishers/{companyname}",
+  "publishersApiUrl": "/api/publishers",
+  "publisherByGameApiUrl": "/api/publishers/game/{key}",
+  "addPublisherApiUrl": "/api/publishers/new",
+  "deletePublisherApiUrl": "/api/publishers/remove/{id}",
+  "updatePublisherApiUrl": "/api/publishers/update",
+
+  "orderApiUrl": "/api/orders/{id}",
+  "ordersApiUrl": "/api/orders",
+  "orderDetailsApiUrl": "",
+  "buyGameApiUrl": "/api/games/{key}/buy",
+  "cancelGameBuyApiUrl": "",
+  "basketApiUrl": "",
+  "makeOrderInfoApiUrl": "",
+  "payApiUrl": ""
+}

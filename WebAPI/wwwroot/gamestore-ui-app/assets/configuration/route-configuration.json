@@ -1,0 +1,30 @@
+{
+  "Game": "/api/games",
+  "UpdateGame": "/api/games/update",
+  "DeleteGame": "/api/games/remove",
+  "AddGame": "/api/games/new",
+  "Games": "/api/games",
+
+  "Genres": "/api/genres",
+  "Genre": "/api/genres",
+  "AddGenre": "/api/genres/new",
+  "DeleteGenre": "/api/genres/remove",
+  "UpdateGenre": "/api/genres/update",
+
+  "UpdatePlatform": "/api/platforms/update",
+  "DeletePlatform": "/api/platforms/remove",
+  "Platform": "/api/platforms",
+  "AddPlatform": "/api/platforms/new",
+  "Platforms": "/api/platforms",
+
+  "Publishers": "/api/publishers",
+  "Publisher": "/api/publishers",
+  "UpdatePublisher": "/api/publishers/update",
+  "DeletePublisher": "/api/publishers/remove",
+  "AddPublisher": "/api/publishers/new",
+
+  "Order": "/api/orders",
+  "Orders": "/api/orders",
+  "Basket": "",
+  "MakeOrder": ""
+}
